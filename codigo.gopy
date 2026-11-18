@@ -1,0 +1,18 @@
+num idade = 20
+num contador = 1
+num resultado = 0
+text nome = "Kelvyn"
+bool ativo = true
+
+resultado = 10 + 5 * 2
+
+if idade >= 18:
+	resultado = resultado + 1
+
+while contador <= 5:
+	resultado = resultado + contador
+	contador = contador + 1
+
+function num somar(num a, num b):
+	num total = a + b
+	return total
